@@ -1,0 +1,49 @@
+✅ 1. Iniciar un repositorio
+git init: crea un nuevo repositorio Git en una carpeta.
+
+git clone <url>: clona un repositorio existente (de GitHub, por ejemplo).
+
+📦 2. Rastrear y registrar cambios
+git add <archivo>: prepara archivos para el próximo commit (los pasa al área de "staging").
+
+git commit -m "mensaje": guarda los cambios preparados con un mensaje descriptivo.
+
+🔍 3. Ver el estado del proyecto
+git status: muestra qué archivos cambiaron, cuáles están preparados y cuáles no.
+
+git log: muestra el historial de commits.
+
+🔁 4. Trabajar con ramas
+git branch: muestra las ramas existentes o crea una nueva.
+
+git checkout <rama>: cambia a otra rama.
+
+git merge <rama>: une los cambios de otra rama con la rama actual.
+
+🌐 5. Conectar con repositorios remotos
+git remote add origin <url>: enlaza tu repo local con uno en la nube (como GitHub).
+
+git push: envía tus commits al repositorio remoto.
+
+git pull: descarga y aplica los cambios del remoto a tu repositorio local.
+
+git fetch: descarga los cambios remotos, pero sin aplicarlos automáticamente.
+
+🔙 6. Deshacer o corregir
+git reset: deshace cambios o vuelve a un estado anterior.
+
+git revert: revierte un commit sin borrar el historial.
+
+git restore: recupera archivos desde el último commit o descarta cambios.
+
+🧠 En resumen:
+Los códigos (comandos) de Git te ayudan a:
+
+Guardar versiones de tu trabajo.
+
+Colaborar con otras personas sin pisarse el trabajo.
+
+Volver atrás si cometés errores.
+
+Ver qué cambió y cuándo.
+
