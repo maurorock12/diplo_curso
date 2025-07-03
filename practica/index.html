@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>CV de Capibara Argento</title> 
+    <title>CV de mauro gaona</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    </style>
 </head>
+
 <body>
-    <h1>Capibara Argento</h1>
+    <h1>mauro gaona</h1>
 
-    <img src="imagenes/capibara.jpg" alt="capibara" width="300" height="300" title="Capibara"> 
-    <img src="imagenes/gatito.jpg" title="gatito" width="300" height="300">
+    <img src="imagenes/capibara.jpg" alt="capibara" width="200" height="200" title="Capibara">
+    <img src="imagenes/gatito.jpg" title="gatito" width="200" height="200">
 
-        <video width="300" height="300" controls loop title="gatito">
-             <source src="video/gatito_bailando.mp4" type="video/mp4">
-         <!-- control Qué hace loop?
-El video vuelve a empezar automáticamente cuando termina, sin necesidad de que el usuario haga clic. -->
+    <video width="200" height="200" controls loop title="gatito">
+        <source src="video/gatito_bailando.mp4" type="video/mp4">
+        <!-- loop El video vuelve a empezar automáticamente cuando termina -->
+    </video>
 
+    <video width="200" height="200" controls loop>
+        <source src="video/kitty.mp4" type="video/mp4">
+    </video>
 
-           </video>
+    <audio controls>
+        <source src="audios/meow-meow-meow-tiktok.mp3" type="audio/mpeg">
+    </audio>
 
-           <video width="300" height="300" controls loop>
-             <source src="video/kitty.mp4" type="video/mp4"> </video>
-             
-
-           <audio controls>
-            <source src="audios/meow-meow-meow-tiktok.mp3" type="audio/mpeg">
-           </audio>
-
-           <audio controls>
-            <source src="audios/i-love-repo_ZkwBQrN.mp3" type="audio/mpeg">
-           </audio>
-
-
-
+    <audio controls>
+        <source src="audios/i-love-repo_ZkwBQrN.mp3" type="audio/mpeg">
+    </audio>
 
     <p>¿Qué series me gustan?</p>
 
@@ -39,25 +38,29 @@ El video vuelve a empezar automáticamente cuando termina, sin necesidad de que 
         <li>sobrenatural</li>
         <li>the walking dead</li>
     </ul>
-    
+
     <p>¿Qué pelis son las que más me gustaron?</p>
     <ol>
         <li>volver al futuro</li>
         <li>harry potter</li>
         <li>guerra de los simios</li>
     </ol>
-    
-    <p>Perfil</p>
-    <p>Me gusta hacer muchas cosas, por ejemplo pintar</p>
-    <p>No disfruto mucho de cocinar</p>
-    <p>En mi tiempo libre suelo ver pelis y series </p>
-    
-    <p>Si querés contactarme, podés completar el siguiente 
-       <a href="https://www.google.com/webhp" target="_blank" title="target blank">ejemplo</a>. <!--pagina nueva ventana-->
+
+    <p >Perfil</p>
+    <p class="destacados">Me gusta hacer muchas cosas, por ejemplo pintar</p>
+    <p class="destacados">No disfruto mucho de cocinar</p>
+    <p class="destacados">En mi tiempo libre suelo ver pelis y series</p>
+
+    <p>Si querés contactarme, podés completar el siguiente
+        <a href="https://www.google.com/webhp" target="_blank" title="target blank">ejemplo</a>.
     </p>
-    <a href="https://www.google.com/webhp" target="_self" title="_self">ir a ejemplo</a> <!--pagina misma pestaña-->
 
+    <a href="https://www.google.com/webhp" target="_self" title="_self">ir a ejemplo</a>
 
-
+    <form action="http://127.0.0.1:5500/practica/index.html" method="post">
+        <label for="nombre">nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+    </form>
 </body>
+
 </html>
